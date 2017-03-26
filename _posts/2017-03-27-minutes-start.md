@@ -113,6 +113,8 @@ categories: minutes
   * [안드로이드 인증 자료]
   * [장고북]
   * [파이썬 공부하는 방법 자료]
+  * [점프투파이썬]
+  * [장고걸번역]
 
 * 구현 기술 및 개발환경
   * 클라이언트
@@ -168,3 +170,5 @@ categories: minutes
   [client git]:<https://github.com/microtrib2/microtribe.client>
   [Oven]:<https://ovenapp.io>
   [google sso]:<https://developers.google.com/identity/sign-in/android/>
+  [점프투파이썬]:<https://wikidocs.net/book/1>
+  [장고걸번역]:<https://tutorial.djangogirls.org/ko/django_installation/>
