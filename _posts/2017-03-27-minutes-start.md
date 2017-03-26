@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Micro.tribe 첫 모임, 2017.03.26"
+title:  "Micro.tribe 첫 모임"
 date:   2017-03-26 16:51:16 +0900
 categories: minutes
 ---

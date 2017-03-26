@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Micro trube
+title: Micro tribe
 email: micro.trib2@gmail.com
-description: 
+description:
    새로운 기술을 배우고 경험하려면 어떻게 해야 할까
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
