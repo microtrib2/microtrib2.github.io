@@ -77,8 +77,8 @@
       <li>브레인스토밍</li>
       <li>서버, 클라이언트 모델 - Owner
         <ul>
-          <li>tns 참고 (정:황보민석, 부:김인태)</li>
-          <li>android 참고 (정:김인태 부:황보민석)</li>
+          <li>서버: tns 참고 (정:황보민석, 부:김인태)</li>
+          <li>클라이언트: android 참고 (정:김인태 부:황보민석)</li>
         </ul>
       </li>
       <li>타켓층 식별</li>
@@ -218,43 +218,22 @@
         </ul>
       </li>
       <li>설정</li>
-      <li>캡슐메시지</li>
+      <li><del>캡슐메시지</del></li>
       <li>계정
         <ul>
           <li>신규 가입</li>
           <li>tribe 생성</li>
           <li>기존 tribe join</li>
-          <li>계정 모델링
+          <li><del>계정 모델링</del>
             <ul>
               <li>Hierarchy 구조 설계</li>
             </ul>
           </li>
         </ul>
       </li>
-      <li>매신져</li>
-      <li>광고</li>
-    </ul>
-  </li>
-  <li>구현 기술
-    <ul>
-      <li>서버
-        <ul>
-          <li>백엔드</li>
-          <li>Django</li>
-        </ul>
-      </li>
-      <li>DB
-        <ul>
-          <li>mysql, postgre</li>
-        </ul>
-      </li>
-      <li>클라이언트
-        <ul>
-          <li>android
-프론트엔드는 open source를 사용하는 것이 Look&amp;feel을 빠르게 셋업이 가능하리라 봄
-ex: bootstrap</li>
-        </ul>
-      </li>
+      <li><del>매신져</del></li>
+      <li><del>광고</del></li>
+      <li><del>화상채팅 - WebRTC</del></li>
     </ul>
   </li>
   <li>설계 계획
@@ -275,12 +254,112 @@ ex: bootstrap</li>
   <li>살펴보면 괜찮은 자료 및 Link
     <ul>
       <li><a href="http://www.codeok.net/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EA%B8%B0%EC%88%A0%20%EC%8A%A4%ED%83%9D">스타트업을 위한 기술 스택</a></li>
+      <li><a href="https://www.udacity.com/course/ud851">안드로이드 인증 무료 강좌</a></li>
+      <li><a href="https://developers.google.com/training/certification/">안드로이드 인증 자료</a></li>
+      <li><a href="http://djangobook.com">장고북</a></li>
+      <li><a href="https://nolboo.kim/blog/2014/08/10/the-best-way-to-learn-python/">파이썬 공부하는 방법 자료</a></li>
+    </ul>
+  </li>
+  <li>구현 기술 및 개발환경
+    <ul>
+      <li>클라이언트
+        <ul>
+          <li>IDE: 안드로이드스튜디오</li>
+          <li>Android 6.0(마시멜로) or 7.0(누가)</li>
+          <li>프론트엔드
+            <ul>
+              <li>open source를 사용가능한지 확인
+                <ul>
+                  <li>Look&amp;feel을 빠르게 셋업이 가능하리라 봄</li>
+                  <li>ex: bootstrap</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>서버
+        <ul>
+          <li>IDE: Pycharm</li>
+          <li>웹프레임워크: Django 1.8</li>
+          <li>언어: Python 3.x</li>
+          <li>개발 환경
+            <ul>
+              <li>local에서 만들어놓고 -&gt; github repo로 버전 관리</li>
+              <li>aws로 호스팅</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>DB
+        <ul>
+          <li>postgresql
+            <ul>
+              <li>개발툴: pgadmin</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
 
 <h2 id="to-do-list">To do list</h2>
+<ul>
+  <li>모임 장소 생각해 볼 것</li>
+  <li>개발환경 구축
+    <ul>
+      <li>안드로이드 서버 환경 구축</li>
+      <li>git 연동</li>
+      <li>README 작성
+        <ul>
+          <li><a href="https://github.com/microtrib2/microtribe.server">server git</a> 에 README 파일에 환경 구축 정보 기록</li>
+          <li><a href="https://github.com/microtrib2/microtribe.client">client git</a> 에 README 파일에 환경 구축 정보 기록</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>UI 기본 컨셉
+    <ul>
+      <li><a href="https://ovenapp.io">Oven</a>으로 프로토타이핑</li>
+    </ul>
+  </li>
+  <li>Cient의 프론트엔드로써 사용가능한 Open source 대상 선정(ex: bootstrap) 및 자료 정리해서 공유
+    <ul>
+      <li>tns에 리사이클러 뷰, 네비게이션 바, 로그인 참고 할 것
+        <ul>
+          <li>SSO (Single Sign On)구글, 네이버, 페이스북 등으로 로그인 가능 하도록</li>
+          <li><a href="https://developers.google.com/identity/sign-in/android/">google sso</a> 정리해서 공유</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
+<h3 id="microtrib2githubio-보완">microtrib2.github.io 보완</h3>
+<ul>
+  <li>댓글 기능 추가</li>
+  <li>기본 정보 업데이트
+    <ul>
+      <li>Github 계정
+        <ul>
+          <li>jumirang</li>
+          <li>brucekim</li>
+        </ul>
+      </li>
+      <li>mail 주소
+        <ul>
+          <li>jumirang@gmail.com</li>
+          <li>bruce.kim.it@gmail.com</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>카테고리로 나누는 것 고민</p>
+
+  </li>
+</ul>
 
   </div>
 

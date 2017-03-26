@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-26T16:56:49+09:00</updated><id>/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-26T18:16:23+09:00</updated><id>/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">Micro.tribe 첫 모임, 2017.03.26</title><link href="/minutes/2017/03/26/minutes-start.html" rel="alternate" type="text/html" title="Micro.tribe 첫 모임, 2017.03.26" /><published>2017-03-26T16:51:16+09:00</published><updated>2017-03-26T16:51:16+09:00</updated><id>/minutes/2017/03/26/minutes-start</id><content type="html" xml:base="/minutes/2017/03/26/minutes-start.html">&lt;h1 id=&quot;app-idea&quot;&gt;App idea&lt;/h1&gt;
 
 &lt;h3 id=&quot;20170326-1차-회의&quot;&gt;2017.03.26 1차 회의&lt;/h3&gt;
@@ -12,8 +12,8 @@
       &lt;li&gt;브레인스토밍&lt;/li&gt;
       &lt;li&gt;서버, 클라이언트 모델 - Owner
         &lt;ul&gt;
-          &lt;li&gt;tns 참고 (정:황보민석, 부:김인태)&lt;/li&gt;
-          &lt;li&gt;android 참고 (정:김인태 부:황보민석)&lt;/li&gt;
+          &lt;li&gt;서버: tns 참고 (정:황보민석, 부:김인태)&lt;/li&gt;
+          &lt;li&gt;클라이언트: android 참고 (정:김인태 부:황보민석)&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;타켓층 식별&lt;/li&gt;
@@ -153,43 +153,22 @@
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;설정&lt;/li&gt;
-      &lt;li&gt;캡슐메시지&lt;/li&gt;
+      &lt;li&gt;&lt;del&gt;캡슐메시지&lt;/del&gt;&lt;/li&gt;
       &lt;li&gt;계정
         &lt;ul&gt;
           &lt;li&gt;신규 가입&lt;/li&gt;
           &lt;li&gt;tribe 생성&lt;/li&gt;
           &lt;li&gt;기존 tribe join&lt;/li&gt;
-          &lt;li&gt;계정 모델링
+          &lt;li&gt;&lt;del&gt;계정 모델링&lt;/del&gt;
             &lt;ul&gt;
               &lt;li&gt;Hierarchy 구조 설계&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;매신져&lt;/li&gt;
-      &lt;li&gt;광고&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;구현 기술
-    &lt;ul&gt;
-      &lt;li&gt;서버
-        &lt;ul&gt;
-          &lt;li&gt;백엔드&lt;/li&gt;
-          &lt;li&gt;Django&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;DB
-        &lt;ul&gt;
-          &lt;li&gt;mysql, postgre&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;클라이언트
-        &lt;ul&gt;
-          &lt;li&gt;android
-프론트엔드는 open source를 사용하는 것이 Look&amp;amp;feel을 빠르게 셋업이 가능하리라 봄
-ex: bootstrap&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;del&gt;매신져&lt;/del&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;del&gt;광고&lt;/del&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;del&gt;화상채팅 - WebRTC&lt;/del&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;설계 계획
@@ -210,11 +189,112 @@ ex: bootstrap&lt;/li&gt;
   &lt;li&gt;살펴보면 괜찮은 자료 및 Link
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.codeok.net/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EA%B8%B0%EC%88%A0%20%EC%8A%A4%ED%83%9D&quot;&gt;스타트업을 위한 기술 스택&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud851&quot;&gt;안드로이드 인증 무료 강좌&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developers.google.com/training/certification/&quot;&gt;안드로이드 인증 자료&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://djangobook.com&quot;&gt;장고북&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://nolboo.kim/blog/2014/08/10/the-best-way-to-learn-python/&quot;&gt;파이썬 공부하는 방법 자료&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;구현 기술 및 개발환경
+    &lt;ul&gt;
+      &lt;li&gt;클라이언트
+        &lt;ul&gt;
+          &lt;li&gt;IDE: 안드로이드스튜디오&lt;/li&gt;
+          &lt;li&gt;Android 6.0(마시멜로) or 7.0(누가)&lt;/li&gt;
+          &lt;li&gt;프론트엔드
+            &lt;ul&gt;
+              &lt;li&gt;open source를 사용가능한지 확인
+                &lt;ul&gt;
+                  &lt;li&gt;Look&amp;amp;feel을 빠르게 셋업이 가능하리라 봄&lt;/li&gt;
+                  &lt;li&gt;ex: bootstrap&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;서버
+        &lt;ul&gt;
+          &lt;li&gt;IDE: Pycharm&lt;/li&gt;
+          &lt;li&gt;웹프레임워크: Django 1.8&lt;/li&gt;
+          &lt;li&gt;언어: Python 3.x&lt;/li&gt;
+          &lt;li&gt;개발 환경
+            &lt;ul&gt;
+              &lt;li&gt;local에서 만들어놓고 -&amp;gt; github repo로 버전 관리&lt;/li&gt;
+              &lt;li&gt;aws로 호스팅&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;DB
+        &lt;ul&gt;
+          &lt;li&gt;postgresql
+            &lt;ul&gt;
+              &lt;li&gt;개발툴: pgadmin&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;to-do-list&quot;&gt;To do list&lt;/h2&gt;</content><author><name></name></author><summary type="html">App idea</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2017/03/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-26T16:51:16+09:00</published><updated>2017-03-26T16:51:16+09:00</updated><id>/jekyll/update/2017/03/26/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2017/03/26/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;h2 id=&quot;to-do-list&quot;&gt;To do list&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;모임 장소 생각해 볼 것&lt;/li&gt;
+  &lt;li&gt;개발환경 구축
+    &lt;ul&gt;
+      &lt;li&gt;안드로이드 서버 환경 구축&lt;/li&gt;
+      &lt;li&gt;git 연동&lt;/li&gt;
+      &lt;li&gt;README 작성
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/microtrib2/microtribe.server&quot;&gt;server git&lt;/a&gt; 에 README 파일에 환경 구축 정보 기록&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/microtrib2/microtribe.client&quot;&gt;client git&lt;/a&gt; 에 README 파일에 환경 구축 정보 기록&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;UI 기본 컨셉
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://ovenapp.io&quot;&gt;Oven&lt;/a&gt;으로 프로토타이핑&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cient의 프론트엔드로써 사용가능한 Open source 대상 선정(ex: bootstrap) 및 자료 정리해서 공유
+    &lt;ul&gt;
+      &lt;li&gt;tns에 리사이클러 뷰, 네비게이션 바, 로그인 참고 할 것
+        &lt;ul&gt;
+          &lt;li&gt;SSO (Single Sign On)구글, 네이버, 페이스북 등으로 로그인 가능 하도록&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://developers.google.com/identity/sign-in/android/&quot;&gt;google sso&lt;/a&gt; 정리해서 공유&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;microtrib2githubio-보완&quot;&gt;microtrib2.github.io 보완&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;댓글 기능 추가&lt;/li&gt;
+  &lt;li&gt;기본 정보 업데이트
+    &lt;ul&gt;
+      &lt;li&gt;Github 계정
+        &lt;ul&gt;
+          &lt;li&gt;jumirang&lt;/li&gt;
+          &lt;li&gt;brucekim&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;mail 주소
+        &lt;ul&gt;
+          &lt;li&gt;jumirang@gmail.com&lt;/li&gt;
+          &lt;li&gt;bruce.kim.it@gmail.com&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;카테고리로 나누는 것 고민&lt;/p&gt;
+
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">App idea</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2017/03/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-26T16:51:16+09:00</published><updated>2017-03-26T16:51:16+09:00</updated><id>/jekyll/update/2017/03/26/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2017/03/26/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
