@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-03-26T16:56:49+09:00</updated><id>/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Micro.tribe 첫 모임, 2017.03.26</title><link href="/minutes/2017/03/26/minutes-start.html" rel="alternate" type="text/html" title="Micro.tribe 첫 모임, 2017.03.26" /><published>2017-03-26T16:51:16+09:00</published><updated>2017-03-26T16:51:16+09:00</updated><id>/minutes/2017/03/26/minutes-start</id><content type="html" xml:base="/minutes/2017/03/26/minutes-start.html">&lt;h1 id=&quot;app-idea&quot;&gt;App idea&lt;/h1&gt;
+
+&lt;h3 id=&quot;20170326-1차-회의&quot;&gt;2017.03.26 1차 회의&lt;/h3&gt;
+
+&lt;h2 id=&quot;회의-안건-및-계획&quot;&gt;회의 안건 및 계획&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;회의 안건
+    &lt;ul&gt;
+      &lt;li&gt;회의 자료를 올릴 곳 선정 - Git hub&lt;/li&gt;
+      &lt;li&gt;브레인스토밍&lt;/li&gt;
+      &lt;li&gt;서버, 클라이언트 모델 - Owner
+        &lt;ul&gt;
+          &lt;li&gt;tns 참고 (정:황보민석, 부:김인태)&lt;/li&gt;
+          &lt;li&gt;android 참고 (정:김인태 부:황보민석)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;타켓층 식별&lt;/li&gt;
+      &lt;li&gt;참고 앱 - 비트윈, 키즈노트, 키즈멘토리, 호갱노노&lt;/li&gt;
+      &lt;li&gt;모임 장소&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;계획
+    &lt;ul&gt;
+      &lt;li&gt;기능을 작게 만들어서 3개월 안으로 끊을 수 있을 만큼 범위 설정
+        &lt;ul&gt;
+          &lt;li&gt;3/26 -&amp;gt; 6/26, 6월 말 런칭을 목표&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;회의-진행&quot;&gt;회의 진행&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;브레인스토밍
+    &lt;ul&gt;
+      &lt;li&gt;아이디랑 패스워드 관리해주는 앱
+        &lt;ul&gt;
+          &lt;li&gt;설치한 앱리스트를 쭉 가져와서, 계정 정보를 서버쪽에 올려줄 수 도 있고&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;지하철 앱이 시간이 안맞고, 열차들어오는 시간
+        &lt;ul&gt;
+          &lt;li&gt;코레일이나 정부기관에서 제공하는 API 가 부정확하거나 제한이 되어 있으면 어려울 듯&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;가족 SNS
+        &lt;ul&gt;
+          &lt;li&gt;이름도 지으면 좋을듯
+            &lt;ul&gt;
+              &lt;li&gt;패밀리노트&lt;/li&gt;
+              &lt;li&gt;micro.tribe&lt;/li&gt;
+              &lt;li&gt;atomic.tribe&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;타입캡슐메시지&lt;/li&gt;
+          &lt;li&gt;비밀방명록&lt;/li&gt;
+          &lt;li&gt;가족사진 얼굴인식해서 감정파악해서, 상태표시 -&amp;gt; 마이크로소프트 Emotion API&lt;/li&gt;
+          &lt;li&gt;화상채팅
+            &lt;ul&gt;
+              &lt;li&gt;WebRTC - Open source&lt;/li&gt;
+              &lt;li&gt;fun요소 - 얼굴에 합성&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;가족간에 사진, 대화, 추억들을 한 곳에서 관리할 수 있으면 좋겠다&lt;/li&gt;
+          &lt;li&gt;다른 가정의 사생활이 궁금한데, 그때 살짝 들어가서 볼 수 있는 욕구를 채워주는 용도
+            &lt;ul&gt;
+              &lt;li&gt;예를들어, 첫째아들이 다니는 어린이집에 있는 다른 친구들의 가정은 제대로 된 가정인지, 화목한 지등을 간접적으로 확인&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;공개 / 비공개 영역으로 구분할 수 있으면?&lt;/li&gt;
+          &lt;li&gt;메신져기능?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;호갱노노처럼 데이터를 긁어와서 비교하고, 보여주는 서비스 형태도 괜찮을 듯&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;계정
+    &lt;ul&gt;
+      &lt;li&gt;Github
+        &lt;ul&gt;
+          &lt;li&gt;Github 계정
+            &lt;ul&gt;
+              &lt;li&gt;(김인태) brucekim&lt;/li&gt;
+              &lt;li&gt;(황보민석) ?&lt;/li&gt;
+              &lt;li&gt;(공통) micro.tribe or atomic.tribe ?&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;서버-클라이언트 모델
+        &lt;ul&gt;
+          &lt;li&gt;서버는 DB로 사용하는 용도로 구현하고,&lt;/li&gt;
+          &lt;li&gt;클라이언트는 모바일에서 애플리케이션 형태로 구현&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;회의록 및 프로젝트 소스 관리
+        &lt;ul&gt;
+          &lt;li&gt;https://github.com/microtrib2/microtrib2&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;개발 계획
+    &lt;ul&gt;
+      &lt;li&gt;일정
+        &lt;ul&gt;
+          &lt;li&gt;6월말까지 12주&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;계정 관리
+        &lt;ul&gt;
+          &lt;li&gt;google account
+            &lt;ul&gt;
+              &lt;li&gt;micro.trib2@gmail.com&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;github
+            &lt;ul&gt;
+              &lt;li&gt;microtrib2&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;타겟층 식별
+    &lt;ul&gt;
+      &lt;li&gt;개인이 공통된 의식을 지니는 어떤 모임 및 그룹 내에서,
+        &lt;ul&gt;
+          &lt;li&gt;공통의 identity를 지니는 컨텐츠를 생산/관리할 수 있는 공간을 필요로 한다고 가정&lt;/li&gt;
+          &lt;li&gt;다른 모임 또는 그룹에서 생산되는 컨텐츠를 엿보고 싶은 욕구를 지님&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;프로토타입의 범위 식별/관리
+    &lt;ul&gt;
+      &lt;li&gt;Home&lt;/li&gt;
+      &lt;li&gt;Story
+        &lt;ul&gt;
+          &lt;li&gt;Timeline 기능&lt;/li&gt;
+          &lt;li&gt;사진별로 comment&lt;/li&gt;
+          &lt;li&gt;한 story 별로 comment&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;달력
+        &lt;ul&gt;
+          &lt;li&gt;기념일&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;설정&lt;/li&gt;
+      &lt;li&gt;캡슐메시지&lt;/li&gt;
+      &lt;li&gt;계정
+        &lt;ul&gt;
+          &lt;li&gt;신규 가입&lt;/li&gt;
+          &lt;li&gt;tribe 생성&lt;/li&gt;
+          &lt;li&gt;기존 tribe join&lt;/li&gt;
+          &lt;li&gt;계정 모델링
+            &lt;ul&gt;
+              &lt;li&gt;Hierarchy 구조 설계&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;매신져&lt;/li&gt;
+      &lt;li&gt;광고&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;구현 기술
+    &lt;ul&gt;
+      &lt;li&gt;서버
+        &lt;ul&gt;
+          &lt;li&gt;백엔드&lt;/li&gt;
+          &lt;li&gt;Django&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;DB
+        &lt;ul&gt;
+          &lt;li&gt;mysql, postgre&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;클라이언트
+        &lt;ul&gt;
+          &lt;li&gt;android
+프론트엔드는 open source를 사용하는 것이 Look&amp;amp;feel을 빠르게 셋업이 가능하리라 봄
+ex: bootstrap&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;설계 계획
+    &lt;ul&gt;
+      &lt;li&gt;UI 문서
+        &lt;ul&gt;
+          &lt;li&gt;기능 명세
+            &lt;ul&gt;
+              &lt;li&gt;서버 DB 스키마 작업&lt;/li&gt;
+              &lt;li&gt;클라이언트/서버 개발 작업 가능&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Oven tool 사용하면 됨&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;살펴보면 괜찮은 자료 및 Link
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.codeok.net/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EA%B8%B0%EC%88%A0%20%EC%8A%A4%ED%83%9D&quot;&gt;스타트업을 위한 기술 스택&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;to-do-list&quot;&gt;To do list&lt;/h2&gt;</content><author><name></name></author><summary type="html">App idea</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2017/03/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-03-26T16:51:16+09:00</published><updated>2017-03-26T16:51:16+09:00</updated><id>/jekyll/update/2017/03/26/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2017/03/26/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
