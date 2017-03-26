@@ -14,8 +14,8 @@ categories: minutes
   * 회의 자료를 올릴 곳 선정 - Git hub
   * 브레인스토밍
   * 서버, 클라이언트 모델 - Owner
-    * tns 참고 (정:황보민석, 부:김인태)
-    * android 참고 (정:김인태 부:황보민석)
+    * 서버: tns 참고 (정:황보민석, 부:김인태)
+    * 클라이언트: android 참고 (정:김인태 부:황보민석)
   * 타켓층 식별
   * 참고 앱 - 비트윈, 키즈노트, 키즈멘토리, 호갱노노
   * 모임 장소
@@ -89,26 +89,16 @@ categories: minutes
   * 달력
     * 기념일
   * 설정
-  * 캡슐메시지
+  * ~~캡슐메시지~~
   * 계정
     * 신규 가입
     * tribe 생성
     * 기존 tribe join
-    * 계정 모델링
+    * ~~계정 모델링~~
       * Hierarchy 구조 설계
-  * 매신져
-  * 광고
-
-* 구현 기술
-  * 서버
-    * 백엔드
-    * Django
-  * DB
-    * mysql, postgre
-  * 클라이언트
-    * android
-    프론트엔드는 open source를 사용하는 것이 Look&feel을 빠르게 셋업이 가능하리라 봄
-    ex: bootstrap
+  * ~~매신져~~
+  * ~~광고~~
+  * ~~화상채팅 - WebRTC~~
 
 * 설계 계획
   * UI 문서
@@ -119,8 +109,62 @@ categories: minutes
 
 * 살펴보면 괜찮은 자료 및 Link
   * [스타트업을 위한 기술 스택]
+  * [안드로이드 인증 무료 강좌]
+  * [안드로이드 인증 자료]
+  * [장고북]
+  * [파이썬 공부하는 방법 자료]
+
+* 구현 기술 및 개발환경
+  * 클라이언트
+    * IDE: 안드로이드스튜디오
+    * Android 6.0(마시멜로) or 7.0(누가)
+    * 프론트엔드
+      * open source를 사용가능한지 확인
+        * Look&feel을 빠르게 셋업이 가능하리라 봄
+        * ex: bootstrap
+  * 서버
+    * IDE: Pycharm
+    * 웹프레임워크: Django 1.8
+    * 언어: Python 3.x
+    * 개발 환경
+      * local에서 만들어놓고 -> github repo로 버전 관리
+      * aws로 호스팅
+  * DB
+    * postgresql
+      * 개발툴: pgadmin
 
 ## To do list
+* 모임 장소 생각해 볼 것
+* 개발환경 구축
+  * 안드로이드 서버 환경 구축
+  * git 연동
+  * README 작성
+    * [server git] 에 README 파일에 환경 구축 정보 기록
+    * [client git] 에 README 파일에 환경 구축 정보 기록
+* UI 기본 컨셉
+  * [Oven]으로 프로토타이핑
+* Cient의 프론트엔드로써 사용가능한 Open source 대상 선정(ex: bootstrap) 및 자료 정리해서 공유
+  * tns에 리사이클러 뷰, 네비게이션 바, 로그인 참고 할 것
+    * SSO (Single Sign On)구글, 네이버, 페이스북 등으로 로그인 가능 하도록
+    * [google sso] 정리해서 공유
 
+### microtrib2.github.io 보완
+* 댓글 기능 추가
+* 기본 정보 업데이트
+  * Github 계정
+    * jumirang
+    * brucekim
+  * mail 주소
+    * jumirang@gmail.com
+    * bruce.kim.it@gmail.com
+* 카테고리로 나누는 것 고민
 
   [스타트업을 위한 기술 스택]:<http://www.codeok.net/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EA%B8%B0%EC%88%A0%20%EC%8A%A4%ED%83%9D>
+  [안드로이드 인증 무료 강좌]:<https://www.udacity.com/course/ud851>
+  [안드로이드 인증 자료]:<https://developers.google.com/training/certification/>
+  [장고북]:<http://djangobook.com>
+  [파이썬 공부하는 방법 자료]:<https://nolboo.kim/blog/2014/08/10/the-best-way-to-learn-python/>
+  [server git]:<https://github.com/microtrib2/microtribe.server>
+  [client git]:<https://github.com/microtrib2/microtribe.client>
+  [Oven]:<https://ovenapp.io>
+  [google sso]:<https://developers.google.com/identity/sign-in/android/>
