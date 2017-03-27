@@ -3,7 +3,7 @@ layout: post
 title:  "Micro.tribe 첫 모임"
 date:   2017-03-26 16:51:16 +0900
 categories: minutes
-comments:true
+comments: true
 ---
 ## 2017.03.26 1차 회의
 
@@ -153,6 +153,6 @@ comments:true
   [google sso]:<https://developers.google.com/identity/sign-in/android/>
   [점프투파이썬]:<https://wikidocs.net/book/1>
   [장고걸번역]:<https://tutorial.djangogirls.org/ko/django_installation/>
-  [jumirang]:<jumirang@gmail.com>
+  [jumirang]:<>
   [brucekim]:<https://brucekim.github.io>
   [microtrib2]:<https://microtrib2.github.io>
