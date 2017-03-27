@@ -1,0 +1,24 @@
+graph G {
+  a -- "tribe A";
+  b -- "tribe A";
+  c -- "tribe A";
+  d -- "tribe A";
+
+  a -- "tribe Aa"
+  b -- "tribe Aa"
+  "tribe Aa" -- "tribe A";
+
+  e -- "tribe B";
+  f -- "tribe B";
+  g -- "tribe B";
+  h -- "tribe B";
+
+  i -- "tribe C";
+  j -- "tribe C";
+  k -- "tribe C";
+  l -- "tribe C";
+
+  "tribe A" -- "tribe B";
+  "tribe A" -- "tribe C";
+  "tribe B" -- "tribe C";
+}
