@@ -3,6 +3,7 @@ layout: post
 title:  "Micro.tribe 첫 모임"
 date:   2017-03-26 16:51:16 +0900
 categories: minutes
+comments:true
 ---
 ## 2017.03.26 1차 회의
 

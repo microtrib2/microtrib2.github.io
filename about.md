@@ -2,11 +2,18 @@
 layout: page
 title: About
 permalink: /about/
+comments:true
 ---
 
-마이크로 트라이브 프로젝트가 만들어지는 과정을 담고 있는 공간입니다. 소수의 인원이 만나서 회사업무가 아닌 스스로를 자극하고, 새로운 무언가를 만들어가고 있습니다.
+# Mirco.tribe
+Micro.tribe 프로젝트를 만들어가는 과정을 차곡차곡 정리하는 공간입니다. 무엇보다도 우선으로 생각하는 것은 재미있는 일을 하는 것입니다.
 
-프로젝트에 참여하고 있는 [jumirang], [brucekim]는 모바일 단말기 제조업체 및 자동차 부품개발 업체에서 소프트웨어 개발자로 근무 중입니다.
+# People
+[jumirang]
+Software Engineer
+
+[brucekim]
+Software Engineer
 
   [jumirang]:<jumirang@gmail.com>
   [brucekim]:<brucekim.github.io>
