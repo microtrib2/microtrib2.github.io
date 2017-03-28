@@ -87,6 +87,7 @@ comments: true
   * ~~매신져~~
   * ~~광고~~
   * ~~화상채팅 - WebRTC~~
+  * ~~sns 연동 facebook instagram twitter~~
 
 ### 설계 계획
   * UI 문서
