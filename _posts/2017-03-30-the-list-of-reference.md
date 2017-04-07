@@ -7,14 +7,12 @@ comments: true
 ---
 
 # Android
-<<<<<<< HEAD
 ### 웹
 * [안드로이드 개발자 공식 사이트](https://developer.android.com/index.html)
 ### 강좌
 * [안드로이드 인증 무료 강좌]
 * [안드로이드 인증 자료]
 ### 종이책
-=======
 
 ### 웹
 
@@ -27,7 +25,6 @@ comments: true
 
 ### 종이책
 
->>>>>>> fe8cbff0e5af9cca0027602b4b3820b847ea147a
 * [Quora 안드로이드 책 질문]
 * [Android Programming: The Big Nerd Ranch Guide (3rd Edition)]
   아마존에서 검색하면 가장 상위에 나오는 책. 리뷰 별점도 상등급이고, Quora에도 가장 상위에 랭크되어 있는 책으로 더 마음에 드는 것은 3판이 출판한지 얼마되지 않아서, _2017.02.09_, 최신 내용을 담고 있다는 점. (4.4 Kitkat ~ 7.0 Nuogat) 총 624 페이지로 양이 꽤 되지만, 가장 많이 보는 책인 것 같다. 아마존에 달린 별 하나 짜리 리뷰를 보면 괜히 시간낭비하는 것은 아닐지 고민이 된다.
