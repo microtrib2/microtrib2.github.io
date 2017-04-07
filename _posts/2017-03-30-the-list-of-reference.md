@@ -7,6 +7,14 @@ comments: true
 ---
 
 # Android
+<<<<<<< HEAD
+### 웹
+* [안드로이드 개발자 공식 사이트](https://developer.android.com/index.html)
+### 강좌
+* [안드로이드 인증 무료 강좌]
+* [안드로이드 인증 자료]
+### 종이책
+=======
 
 ### 웹
 
@@ -19,6 +27,7 @@ comments: true
 
 ### 종이책
 
+>>>>>>> fe8cbff0e5af9cca0027602b4b3820b847ea147a
 * [Quora 안드로이드 책 질문]
 * [Android Programming: The Big Nerd Ranch Guide (3rd Edition)]
   아마존에서 검색하면 가장 상위에 나오는 책. 리뷰 별점도 상등급이고, Quora에도 가장 상위에 랭크되어 있는 책으로 더 마음에 드는 것은 3판이 출판한지 얼마되지 않아서, _2017.02.09_, 최신 내용을 담고 있다는 점. (4.4 Kitkat ~ 7.0 Nuogat) 총 624 페이지로 양이 꽤 되지만, 가장 많이 보는 책인 것 같다. 아마존에 달린 별 하나 짜리 리뷰를 보면 괜히 시간낭비하는 것은 아닐지 고민이 된다.
@@ -34,7 +43,9 @@ comments: true
   > Amazon 별 1개 리뷰:
   > One of the most poorly written programming books. They need to change their "We Write" tab, on their website, to "We try to write but fail miserably". If you want to learn programing like paint by numbers and waste a lot of time, this is for you. They condescendingly tell you that their way of programing is the best way when it is just their way. They give very short "explanations" of their code. Not much on why they do something just how. Only positive about this book is that they cover a lot of topics, but they do so poorly.
 * [Android: Programming in a Day! The Power Guide for Beginners In Android App Programming](https://www.amazon.com/Android-Development-Programming-Guide-Learn-ebook/dp/B014PWF9GS/ref=pd_sim_351_1?_encoding=UTF8&psc=1&refRID=A44C8BK189WA1WXCEEJ4)
-  리뷰 횟수는 이 책이 Big nerd보다는 많고 페이지가 얼마 안되서 (50 페이지 정도) 빠르게 한번 쭉 읽기 좋은 책으로 생각됨 - 읽어보고 업데이트 필요
+  ~~리뷰 횟수는 이 책이 Big nerd보다는 많고 페이지가 얼마 안되서 (50 페이지 정도) 빠르게 한번 쭉 읽기 좋은 책으로 생각됨 - 읽어보고 업데이트 필요~~
+
+  구해서 읽어본 소감은, `읽을 가치도 없고 시간 낭비` 로 밖에 정리가 되지 않는다. 아마존 별 1개 리뷰에 나온 fake라는 말이 사실. 50페이지에 핵심만 잘 정리해놓지 않았을까 기대를 했는데, 실상은 프로그래밍 코드에서 주석은 /* */, 연산자와 수식은 뭐가 있고 변수와 키워드란 뭔지 장황하게 설명하는데 많은 지면을 할애하고 있다. 그나마 안드로이드가 리눅스 커널, 안드로이드 라이브러리, 안드로이드 런타임, 안드로이드 애플리케이션 프레임워크, 안드로이드 애플리케이션의 5가지로 구성된다는 설명과, 안드로이드 애플리케이션 컴포넌트는 Service, Activity, Content Provider, Broadcast Receiver 그리고 기타로 구성되어있다는 설명이 전부다. ~~Android life cycle에 대한 설명조차 없다~~
   > Amazon 별 1개 리뷰:
   > Please don't buy it, it's fake!! It's only 54 of what an Android app is made of. No single code, no XML code, no single screen shot. I want my money back!!!!
   > All the other reviews are fake too
