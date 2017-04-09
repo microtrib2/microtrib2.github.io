@@ -7,11 +7,14 @@ comments: true
 ---
 
 # Android
+
 ### 웹
 * [안드로이드 개발자 공식 사이트](https://developer.android.com/index.html)
+
 ### 강좌
 * [안드로이드 인증 무료 강좌]
 * [안드로이드 인증 자료]
+
 ### 종이책
 
 ### 웹
@@ -64,6 +67,7 @@ comments: true
 
 * [파이썬 공부하는 방법 자료]
 * [점프투파이썬]
+* [Think to Python](http://greenteapress.com/wp/think-python/)
 
 # Postgre
 
