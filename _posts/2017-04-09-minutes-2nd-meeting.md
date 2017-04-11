@@ -5,7 +5,7 @@ date:   2017-04-09 09:00:00 +0900
 categories: minutes
 comments: true
 ---
-## 2017.03.26 1차 회의
+## 2017.04.09 2차 회의
 
 ### 회의 안건 및 계획
 * 소스 저장소: Bitbucket 계정 생성 (microtrib2)
@@ -27,6 +27,14 @@ comments: true
 미팅 회의록이나 스터디한 내용을 [github](https://github.com)와 [jekyll](https://jekyllrb.com)으로 하기로 하여, 정리해서 업데이트 필요
 * Jekyll - 회의록 작성 및 기술적인 아티클 생성 프레임워크로 사용
 * Github - hosting
+
+jekyll이 설치되어 있다면, github에서 [microtribe github pages](https://github.com/microtrib2/microtrib2.github.io)를 clone하고 `_post` 디렉터리 밑에 파일을 만들어서 `YYYY-MM-DD-title-of-article.md` 의 포맷을 꼭 지켜서 작성하면 된다.
+build & serve는 아래 명령어 참고
+```
+jekyll build  //기본 빌드
+jekyll build --watch -d ~/GitHub/localtest/   //글을 수정하거나 새로 생성할 때 자동으로 빌드해줌, 그리고 build 결과물(_site)을 만들어낼 타겟 디렉터리를 지정함
+jekyll serve //이제 그러면, 웹브라우저를 띄워서 localhost:4000 또는 127.0.0.1:4000로 접속하면 로컬에서 떠있는 페이지를 볼 수 있음
+```
 
 ### Diagram drawing
 
