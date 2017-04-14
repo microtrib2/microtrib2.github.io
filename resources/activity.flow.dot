@@ -1,0 +1,59 @@
+digraph G {
+
+  /* list up the nodes */
+  start;
+  home;
+  navi_drawer;
+
+  /* story book and friends */
+  storybook;
+  story;
+  "how to add story";
+  "load stories";
+  storybook_gridview;
+
+  /* calendar */
+  calendar;
+
+  /* settings */
+  settings;
+
+  /* account */
+  account;
+
+  /* ranking */
+  { rank = same; storybook; settings; calendar; account}
+
+  /* conditional node */
+  check_num_story [shape = diamond, label = "", height = 0.2, width = 0.2];
+
+  /* -------------flow------------- */
+  start -> home -> navi_drawer
+
+  /* story book */
+  navi_drawer-> storybook;
+  storybook -> home;
+
+  storybook -> check_num_story;
+  check_num_story -> "load stories" [label="story > 0"];
+  check_num_story -> "how to add story" [label = "story = 0"];
+  "how to add story" -> "load stories" [label = "having new story"]
+
+  "load stories" -> storybook_gridview [label = "zoom out"];
+  storybook_gridview -> "load stories" [label = "select an region"];
+
+  "load stories" -> story [label = "select a img"];
+  story -> "load stories" [label = "back btn"]
+
+  /* calendar */
+  navi_drawer -> calendar;
+  calendar -> home;
+
+  /* settings */
+  navi_drawer -> settings;
+  settings -> home;
+
+  /* account */
+  navi_drawer -> account;
+  account -> home;
+}
