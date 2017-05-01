@@ -5,7 +5,7 @@ date:   2017-05-01 09:00:00 +0900
 categories: minutes
 comments: true
 ---
-# 2017.05.10 4차 모임
+# 2017.05.01 4차 모임
 
 # 모임 안건
 * Android life cycle review
