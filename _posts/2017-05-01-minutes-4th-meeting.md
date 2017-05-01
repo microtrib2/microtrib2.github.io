@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Micro.tribe - 네 번째 모임"
+date:   2017-05-01 09:00:00 +0900
+categories: minutes
+comments: true
+---
+# 2017.05.10 4차 모임
+
+# 모임 안건
+* Android life cycle review
+* Django review
+  * [정규표현식 정리 필요](https://docs.djangoproject.com/en/1.11/topics/http/urls/)
+* 시나리오를 디테일하게 breakdown해 놓고, 일정에 맞추어서 release 별 계획 수립 필요
+* 모임장소: 군포 중앙도서관
+* 유사 앱 논의 [Baby Story](https://babystory.samsungcard.com/baby/etc/landing/UCACCO0154M0.jsp)
+
+# 모임 진행
+## 개발 프로세스 정리
+* 기획안 작성
+* 유사 서비스 분석
+* UX/UI 시나리오 정립
+* 기능 명세
+* 소프트웨어 아키텍처 설계
+* 데이터 모델 설계
+* 구현
+* 테스트
+
+# To do list
