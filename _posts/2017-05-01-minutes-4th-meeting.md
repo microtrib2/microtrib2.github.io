@@ -21,10 +21,10 @@ comments: true
 ## 개발 프로세스 정리
 * [기획안 작성][proposal]
   * 올려 놓을 곳 (Google Drive)
-* 유사 서비스 분석
-  * [비트윈]
-  * [Kidsnote]
-  * [Baby Story]
+* [유사 서비스 분석][similarservice]
+  * 비트윈
+  * Kidsnote
+  * Baby Story
 * UX/UI 시나리오 정립
 * 기능 명세
 * 소프트웨어 아키텍처 설계
@@ -32,8 +32,13 @@ comments: true
 * 구현
 * 테스트
 
-# To do list
+# Done
+* 기획안 1차 작성 완료
+* 유사 서비스 분석 - 비트윈 스토리까지 작성 (나머지도 작성 필요)
 
-[Kidsnote]:https://www.kidsnote.com
-[비트윈]:https://between.us/?lang=ko
-[Baby Story]:https://babystory.samsungcard.com/baby/etc/landing/UCACCO0154M0.jsp
+# To do list
+* 키즈노트와 베이비스토리 작성 필요
+* UX/UI 시나리오 작성
+
+[proposal]:{% post_url 2017-05-01-proposal %}
+[similarservice]:{% post_url 2017-05-01-analysis-similar-service %}
