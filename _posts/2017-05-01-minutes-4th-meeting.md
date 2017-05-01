@@ -13,12 +13,18 @@ comments: true
   * [정규표현식 정리 필요](https://docs.djangoproject.com/en/1.11/topics/http/urls/)
 * 시나리오를 디테일하게 breakdown해 놓고, 일정에 맞추어서 release 별 계획 수립 필요
 * 모임장소: 군포 중앙도서관
-* 유사 앱 논의 [Baby Story](https://babystory.samsungcard.com/baby/etc/landing/UCACCO0154M0.jsp)
+
+![Image]({{ site.url }}/resources/gunpi-library-parking-fee.jpg){:width="500"}
+* 유사 앱 논의
 
 # 모임 진행
 ## 개발 프로세스 정리
-* 기획안 작성
+* [기획안 작성][proposal]
+  * 올려 놓을 곳 (Google Drive)
 * 유사 서비스 분석
+  * [비트윈]
+  * [Kidsnote]
+  * [Baby Story]
 * UX/UI 시나리오 정립
 * 기능 명세
 * 소프트웨어 아키텍처 설계
@@ -27,3 +33,7 @@ comments: true
 * 테스트
 
 # To do list
+
+[Kidsnote]:https://www.kidsnote.com
+[비트윈]:https://between.us/?lang=ko
+[Baby Story]:https://babystory.samsungcard.com/baby/etc/landing/UCACCO0154M0.jsp
