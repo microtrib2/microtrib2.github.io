@@ -2,7 +2,7 @@
 layout: post
 title:  "Micro.tribe - 유사 서비스 분석"
 date:   2017-05-01 13:30:00 +0900
-categories: minutes
+categories: document
 comments: true
 ---
 

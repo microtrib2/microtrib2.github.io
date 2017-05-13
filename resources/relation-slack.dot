@@ -1,0 +1,16 @@
+graph G{
+  /* node */
+  "team1"; "team2";
+  a; b; c; d;
+  
+  {rank = same; "team1"; "team2"}
+  {rank = same; a; b; c; d;}
+  
+  "team1" -- a;
+  "team1" -- b;
+  "team1" -- c;
+  "team1" -- d;
+  
+  "team2" -- a;
+  "team2" -- c;
+}

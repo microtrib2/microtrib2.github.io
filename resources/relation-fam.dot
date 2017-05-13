@@ -1,0 +1,34 @@
+graph {
+  /* node */
+  l1[shape=point, label=""]; l2[shape=point, label=""]; l3[shape=point, label=""]; l4[shape=point, label=""]; l5[shape=point, label=""];
+  l1--l2--l3--l4--l5;
+  fam1; fam2;
+  
+  fam1p1[label=p1]; fam1p2[label=p2]; fam1p3[label=p3]; fam1p4[label=p4];
+  fam2p1[label=p1]; fam2p2[label=p2]; fam2p3[label=p3]; fam2p4[label=p4];
+  
+  a1; a2;
+  
+  {rank=same; l1; fam1};
+  {rank=same; l2; fam1p1; fam1p2; fam1p3; fam1p4};
+  {rank=same; l3; fam2};
+  {rank=same; l4; fam2p1; fam2p2; fam2p3; fam2p4};
+  {rank=same; l5; a1; a2};
+  
+  fam1 -- fam1p1;
+  fam1 -- fam1p2;
+  fam1 -- fam1p3;
+  fam1 -- fam1p4;
+  
+  fam2 -- fam2p1;
+  fam2 -- fam2p2;
+  fam2 -- fam2p3;
+  fam2 -- fam2p4;
+  
+  fam1 -- fam2 [style=dotted];
+  a1 -- fam2p1 [style=dotted];
+  a2 -- fam2p2 [style=dotted];
+  
+  a1 -- fam1p1 [style=dotted];
+  a2 -- fam1p2 [style=dotted];
+}

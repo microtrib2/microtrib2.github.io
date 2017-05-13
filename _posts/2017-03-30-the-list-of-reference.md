@@ -2,7 +2,7 @@
 layout: post
 title:  "Micro.tribe - 볼만한 자료 모음"
 date:   2017-03-30 00:34:00 +0900
-categories: minutes
+categories: document
 comments: true
 ---
 
